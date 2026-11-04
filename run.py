@@ -31,5 +31,5 @@ with app.app_context():
 if __name__ == "__main__":
     if not os.getenv("ADMIN_EMAIL") and not os.getenv("ADMIN_PASSWORD"):
         with app.app_context():
-            create_admin_if_missing("admin@gmail.com", "admin123")
+            create_admin_if_missing("admin@gmail.com", "admin@123")
     app.run(debug=os.getenv("FLASK_DEBUG", "").lower() in ("1", "true"))

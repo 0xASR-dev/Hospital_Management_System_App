@@ -7,4 +7,4 @@
 
 The included free PostgreSQL plan is intended for evaluation and expires after 30 days. Upgrade the database to a paid plan before then if you need to keep its data. The free web service may sleep when idle and take a short time to wake up.
 
-To run locally, install the requirements and run `python run.py`. Local startup still creates the development admin account `admin@gmail.com` / `admin123`; do not use those credentials in a public deployment.
+To run locally, install the requirements and run `python run.py`. Local startup still creates the development admin account `admin@gmail.com` / `admin@123`; do not use those credentials in a public deployment.

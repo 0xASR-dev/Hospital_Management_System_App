@@ -42,7 +42,7 @@ python run.py
 
 Open [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-Local startup creates the SQLite database and tables if they do not exist. If `ADMIN_EMAIL` and `ADMIN_PASSWORD` are not set, running `python run.py` creates the local development administrator account `admin@gmail.com` with password `admin123`. Do not use these credentials in a public deployment.
+Local startup creates the SQLite database and tables if they do not exist. If `ADMIN_EMAIL` and `ADMIN_PASSWORD` are not set, running `python run.py` creates the local development administrator account `admin@gmail.com` with password `admin@123`. Do not use these credentials in a public deployment.
 
 ## Configuration
 
